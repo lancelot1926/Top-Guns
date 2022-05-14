@@ -1,0 +1,2240 @@
+fileFormatVersion: 2
+guid: 39734127a24993840aabc34f325cafec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7545438583619884586
+    second: torso sprites_0
+  - first:
+      213: -916254157069922564
+    second: torso sprites_1
+  - first:
+      213: -2393162596604121935
+    second: torso sprites_2
+  - first:
+      213: 2197456309760296986
+    second: torso sprites_3
+  - first:
+      213: 9135322107821204133
+    second: torso sprites_4
+  - first:
+      213: -5866372930790186041
+    second: torso sprites_5
+  - first:
+      213: -4772859126403193478
+    second: torso sprites_6
+  - first:
+      213: -4423956496188701949
+    second: torso sprites_7
+  - first:
+      213: -2251148369157254348
+    second: torso sprites_8
+  - first:
+      213: -3640766672798039662
+    second: torso sprites_9
+  - first:
+      213: -411201096764297918
+    second: torso sprites_10
+  - first:
+      213: -8546104704981806931
+    second: torso sprites_11
+  - first:
+      213: -7531055937903368741
+    second: torso sprites_12
+  - first:
+      213: -6607629672980884429
+    second: torso sprites_13
+  - first:
+      213: 3941826232604568232
+    second: torso sprites_14
+  - first:
+      213: -2989475646527589086
+    second: torso sprites_15
+  - first:
+      213: 1110645271121622197
+    second: torso sprites_16
+  - first:
+      213: -6381923326214080245
+    second: torso sprites_17
+  - first:
+      213: 6821257126827815246
+    second: torso sprites_18
+  - first:
+      213: 6023642654785615564
+    second: torso sprites_19
+  - first:
+      213: 2615441458023492314
+    second: torso sprites_20
+  - first:
+      213: 1641592469991562151
+    second: torso sprites_21
+  - first:
+      213: -7835109410155786052
+    second: torso sprites_22
+  - first:
+      213: 7801476484112134987
+    second: torso sprites_23
+  - first:
+      213: 3602799989085182319
+    second: torso sprites_24
+  - first:
+      213: -8736623849614713317
+    second: torso sprites_25
+  - first:
+      213: -13885948872308436
+    second: torso sprites_26
+  - first:
+      213: -2335694869485486390
+    second: torso sprites_27
+  - first:
+      213: 5972896633395845330
+    second: torso sprites_28
+  - first:
+      213: 6194293951222438440
+    second: torso sprites_29
+  - first:
+      213: -4415407231071791829
+    second: torso sprites_30
+  - first:
+      213: 1416164427553115186
+    second: torso sprites_31
+  - first:
+      213: -351448033531071362
+    second: torso sprites_32
+  - first:
+      213: -6814215976968590213
+    second: torso sprites_33
+  - first:
+      213: 1110526802192839007
+    second: torso sprites_34
+  - first:
+      213: -6334442536427768479
+    second: torso sprites_35
+  - first:
+      213: -2370306063934535851
+    second: torso sprites_36
+  - first:
+      213: -3301297964747942793
+    second: torso sprites_37
+  - first:
+      213: -7163282269465328296
+    second: torso sprites_38
+  - first:
+      213: 4354858785840172465
+    second: torso sprites_39
+  - first:
+      213: -3498249774819804358
+    second: torso sprites_40
+  - first:
+      213: -4372690911323448303
+    second: torso sprites_41
+  - first:
+      213: -3351096039784565572
+    second: torso sprites_42
+  - first:
+      213: 4288217523287931775
+    second: torso sprites_43
+  - first:
+      213: 6921382944226137853
+    second: torso sprites_44
+  - first:
+      213: -8556550883560514624
+    second: torso sprites_45
+  - first:
+      213: -95283868240753845
+    second: torso sprites_46
+  - first:
+      213: -7295421397195744221
+    second: torso sprites_47
+  - first:
+      213: 6829286021787090446
+    second: torso sprites_48
+  - first:
+      213: -3892396522334751121
+    second: torso sprites_49
+  - first:
+      213: -2293769037127394045
+    second: torso sprites_50
+  - first:
+      213: -7239490496415399751
+    second: torso sprites_51
+  - first:
+      213: 516134256939877725
+    second: torso sprites_52
+  - first:
+      213: 3540998179643160382
+    second: torso sprites_53
+  - first:
+      213: -5281344619221549035
+    second: torso sprites_54
+  - first:
+      213: 1129415415214683387
+    second: torso sprites_55
+  - first:
+      213: 7207434747408689314
+    second: torso sprites_56
+  - first:
+      213: 4328540385903860008
+    second: torso sprites_57
+  - first:
+      213: 3571612449198288739
+    second: torso sprites_58
+  - first:
+      213: -8878085202935698727
+    second: torso sprites_59
+  - first:
+      213: -4293376006499238898
+    second: torso sprites_60
+  - first:
+      213: -2775773879190778186
+    second: torso sprites_61
+  - first:
+      213: 8189803715491330267
+    second: torso sprites_62
+  - first:
+      213: 5149647457781932321
+    second: torso sprites_63
+  - first:
+      213: -5917847828115631053
+    second: torso sprites_64
+  - first:
+      213: -3714677923387196092
+    second: torso sprites_65
+  - first:
+      213: -7411479009352821394
+    second: torso sprites_66
+  - first:
+      213: 5735749324024039848
+    second: torso sprites_67
+  - first:
+      213: -2489953831845638573
+    second: torso sprites_68
+  - first:
+      213: -7988246004579019545
+    second: torso sprites_69
+  - first:
+      213: -500956027354562036
+    second: torso sprites_70
+  - first:
+      213: 8529509177296584006
+    second: torso sprites_71
+  - first:
+      213: 1006205248051552999
+    second: torso sprites_72
+  - first:
+      213: -667289519720000808
+    second: torso sprites_73
+  - first:
+      213: -173672781738698155
+    second: torso sprites_74
+  - first:
+      213: -2139096354580069347
+    second: torso sprites_75
+  - first:
+      213: 2488852424407753854
+    second: torso sprites_76
+  - first:
+      213: -7999957279634231947
+    second: torso sprites_77
+  - first:
+      213: 10746816065077702
+    second: torso sprites_78
+  - first:
+      213: -4865389700158545386
+    second: torso sprites_79
+  - first:
+      213: 7500340845587546033
+    second: torso sprites_80
+  - first:
+      213: 5233559136004594133
+    second: torso sprites_81
+  - first:
+      213: 1768074311217590098
+    second: torso sprites_82
+  - first:
+      213: 711901109594625213
+    second: torso sprites_83
+  - first:
+      213: 8817433852958293399
+    second: torso sprites_84
+  - first:
+      213: -2011887090499391432
+    second: torso sprites_85
+  - first:
+      213: 6441018601570340194
+    second: torso sprites_86
+  - first:
+      213: 6686760148070084553
+    second: torso sprites_87
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: torso sprites_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 251
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2690331a68c6b860800000000000000
+      internalID: 7545438583619884586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 251
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe4fdbd2bfc843f0800000000000000
+      internalID: -916254157069922564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 251
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bce8a34c47c9ced0800000000000000
+      internalID: -2393162596604121935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 251
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1804b00fdeee7e10800000000000000
+      internalID: 2197456309760296986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_4
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 251
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2a4795e0f27ce70800000000000000
+      internalID: 9135322107821204133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_5
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 251
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3a84c96e4769ea0800000000000000
+      internalID: -5866372930790186041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_6
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 251
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75a1c789e563cdb0800000000000000
+      internalID: -4772859126403193478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_7
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 251
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30304ee7103fa92c0800000000000000
+      internalID: -4423956496188701949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 202
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4339eaf3c7052c0e0800000000000000
+      internalID: -2251148369157254348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_9
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 202
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291cacd2006697dc0800000000000000
+      internalID: -3640766672798039662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 202
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24dec18f7ce1b4af0800000000000000
+      internalID: -411201096764297918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_11
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 202
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0d34ecc03266980800000000000000
+      internalID: -8546104704981806931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_12
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 202
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd56ca596805c7790800000000000000
+      internalID: -7531055937903368741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_13
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 202
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334d4a632dbfc44a0800000000000000
+      internalID: -6607629672980884429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_14
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 202
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa26b8e21e24b630800000000000000
+      internalID: 3941826232604568232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_15
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 202
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225ba080dbf3386d0800000000000000
+      internalID: -2989475646527589086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_16
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 202
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4fba85dfdc96f00800000000000000
+      internalID: 1110645271121622197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_17
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 202
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09fa353c8ade67a0800000000000000
+      internalID: -6381923326214080245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_18
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 202
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e417c2e5739f9ae50800000000000000
+      internalID: 6821257126827815246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_19
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 202
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc633647417489350800000000000000
+      internalID: 6023642654785615564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_20
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 202
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adae15c162aeb4420800000000000000
+      internalID: 2615441458023492314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_21
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 202
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab9dc767ab18c610800000000000000
+      internalID: 1641592469991562151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_22
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 202
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0185fe089144390800000000000000
+      internalID: -7835109410155786052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_23
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 202
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43311f3789644c60800000000000000
+      internalID: 7801476484112134987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 154
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69143a6087bff130800000000000000
+      internalID: 3602799989085182319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_25
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 154
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e528bb5e641c680800000000000000
+      internalID: -8736623849614713317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_26
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 154
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29c8169dcaaecff0800000000000000
+      internalID: -13885948872308436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_27
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 154
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace7d9824e1f59fd0800000000000000
+      internalID: -2335694869485486390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_28
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 154
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d89fa1a7ddf3e250800000000000000
+      internalID: 5972896633395845330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_29
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 154
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ad6f4a78d86f550800000000000000
+      internalID: 6194293951222438440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_30
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 154
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b255645648259b2c0800000000000000
+      internalID: -4415407231071791829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_31
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 154
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c09df2b0a37a310800000000000000
+      internalID: 1416164427553115186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_32
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 154
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74fe5420e76f1bf0800000000000000
+      internalID: -351448033531071362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_33
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 154
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ceef51caa0f61a0800000000000000
+      internalID: -6814215976968590213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_34
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 154
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5131462e32696f00800000000000000
+      internalID: 1110526802192839007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_35
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 154
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165391e031a8718a0800000000000000
+      internalID: -6334442536427768479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_36
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 154
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5574a3a713bfa1fd0800000000000000
+      internalID: -2370306063934535851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_37
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 154
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7749a79fdfe6f22d0800000000000000
+      internalID: -3301297964747942793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_38
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 154
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8554aa68ab8e69c90800000000000000
+      internalID: -7163282269465328296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_39
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 154
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd0ef02ef09f6c30800000000000000
+      internalID: 4354858785840172465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 106
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b76444d58b37fc0800000000000000
+      internalID: -3498249774819804358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_41
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 106
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c9cfd98c41153c0800000000000000
+      internalID: -4372690911323448303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_42
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 106
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb43c6c18e38e71d0800000000000000
+      internalID: -3351096039784565572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_43
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 106
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bbe231e1fc28b30800000000000000
+      internalID: 4288217523287931775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_44
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 106
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6db01ed11bd0060800000000000000
+      internalID: 6921382944226137853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_45
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 106
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb12d25e46014980800000000000000
+      internalID: -8556550883560514624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_46
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 106
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b4fa0a3db7daef0800000000000000
+      internalID: -95283868240753845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_47
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 106
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c1d5d54e471ca90800000000000000
+      internalID: -7295421397195744221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_48
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 106
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ef826247f76ce50800000000000000
+      internalID: 6829286021787090446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_49
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 106
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6675495cfd6bf9c0800000000000000
+      internalID: -3892396522334751121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_50
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 106
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d5b31b635ea20e0800000000000000
+      internalID: -2293769037127394045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_51
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 106
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0085effb9288b90800000000000000
+      internalID: -7239490496415399751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_52
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 106
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55cf414f5da92700800000000000000
+      internalID: 516134256939877725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_53
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 106
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e377fe75517242130800000000000000
+      internalID: 3540998179643160382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_54
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 106
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51001e2fc05e4b6b0800000000000000
+      internalID: -5281344619221549035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_55
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 106
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4b8b3165d7caf00800000000000000
+      internalID: 1129415415214683387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_56
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 58
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a82a1557b3f50460800000000000000
+      internalID: 7207434747408689314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_57
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 58
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8295bb12c80121c30800000000000000
+      internalID: 4328540385903860008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_58
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 58
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fa3dd699ae09130800000000000000
+      internalID: 3571612449198288739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_59
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 58
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9daad59cb84bac480800000000000000
+      internalID: -8878085202935698727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_60
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 58
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c7d65f44dda64c0800000000000000
+      internalID: -4293376006499238898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_61
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 58
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be86021d587a79d0800000000000000
+      internalID: -2775773879190778186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_62
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 58
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8f80a761708a170800000000000000
+      internalID: 8189803715491330267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_63
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 58
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121e59f2419377740800000000000000
+      internalID: 5149647457781932321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_64
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 58
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334d95221c49fdda0800000000000000
+      internalID: -5917847828115631053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_65
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 58
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d35812c10d27cc0800000000000000
+      internalID: -3714677923387196092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_66
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 58
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65d243db13252990800000000000000
+      internalID: -7411479009352821394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_67
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 58
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9c323fe99799f40800000000000000
+      internalID: 5735749324024039848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_68
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 58
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ec7b9ae28e17dd0800000000000000
+      internalID: -2489953831845638573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_69
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 58
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e452a6159c042190800000000000000
+      internalID: -7988246004579019545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_70
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 58
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02c075b52f3c09f0800000000000000
+      internalID: -500956027354562036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_71
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 58
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d723dc767ee5670800000000000000
+      internalID: 8529509177296584006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_72
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 10
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e22f3d8752c6fd00800000000000000
+      internalID: 1006205248051552999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_73
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 10
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d29fbe97bf4db6f0800000000000000
+      internalID: -667289519720000808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_74
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 10
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a9f41768df69df0800000000000000
+      internalID: -173672781738698155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_75
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 10
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d140cece2376052e0800000000000000
+      internalID: -2139096354580069347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_76
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 10
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74a13fe71e2a8220800000000000000
+      internalID: 2488852424407753854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_77
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 10
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57de9116d317af090800000000000000
+      internalID: -7999957279634231947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_78
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 10
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1860a1c2e262000800000000000000
+      internalID: 10746816065077702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_79
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 10
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612a43c78d9aa7cb0800000000000000
+      internalID: -4865389700158545386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_80
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 10
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf3993b240961860800000000000000
+      internalID: 7500340845587546033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_81
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 10
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9dd8c3e4651a840800000000000000
+      internalID: 5233559136004594133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_82
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 10
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f2e98e736798810800000000000000
+      internalID: 1768074311217590098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_83
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 10
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db41890994e21e900800000000000000
+      internalID: 711901109594625213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_84
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 10
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d351c5f51dd5a70800000000000000
+      internalID: 8817433852958293399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_85
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 10
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830f692c9575414e0800000000000000
+      internalID: -2011887090499391432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_86
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 10
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d884aca48136950800000000000000
+      internalID: 6441018601570340194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torso sprites_87
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 10
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfa4fb3de42ccc50800000000000000
+      internalID: 6686760148070084553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

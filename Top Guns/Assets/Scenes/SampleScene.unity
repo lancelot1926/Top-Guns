@@ -380,6 +380,7 @@ GameObject:
   - component: {fileID: 580226837}
   - component: {fileID: 580226840}
   - component: {fileID: 580226839}
+  - component: {fileID: 580226841}
   m_Layer: 0
   m_Name: PlayerCharacter
   m_TagString: Untagged
@@ -401,7 +402,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigBody: {fileID: 580226840}
   animator: {fileID: 1543179916}
+  moveDir: {x: 0, y: 0, z: 0}
+  mousePos: {x: 0, y: 0, z: 0}
+  lookDir: {x: 0, y: 0, z: 0}
   cam: {fileID: 519420031}
+  angle: 0
   moveX: 0
   moveY: 0
   mouseX: 0
@@ -445,7 +450,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 580226836}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -457,7 +462,23 @@ Rigidbody2D:
   m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &580226841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580226836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2279e489a5e25494ca2028e89d07b7c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 1993497877}
+  goldBulletMid: {fileID: 4584924342552557459, guid: 327fbf9846cf19147bdcaf6d504668ff,
+    type: 3}
+  bulletForceMid: 20
 --- !u!1 &1543179914
 GameObject:
   m_ObjectHideFlags: 0

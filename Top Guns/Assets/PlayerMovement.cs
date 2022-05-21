@@ -8,10 +8,12 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rigBody;
     [SerializeField]
     private Animator animator;
-    private Vector3 moveDir;
-    private Vector2 mousePos;
-    private Vector2 lookDir;
+    public Vector3 moveDir;
+    public Vector3 mousePos;
+    public Vector3 lookDir;
     public Camera cam;
+
+    public float angle;
     private float moveSpeed = 10f;
     public float moveX;
     public float moveY;
@@ -95,6 +97,8 @@ public class PlayerMovement : MonoBehaviour
     {
         rigBody.velocity = moveDir*moveSpeed;
 
-        lookDir = mousePos - rigBody.position;
+        lookDir = mousePos - transform.position;
+        angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg-90f;
+        
     }
 }

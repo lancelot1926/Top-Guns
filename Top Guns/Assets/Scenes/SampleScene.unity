@@ -339,7 +339,7 @@ Camera:
   field of view: 159
   orthographic: 1
   orthographic size: 10
-  m_Depth: 0
+  m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -407,6 +407,7 @@ MonoBehaviour:
   lookDir: {x: 0, y: 0, z: 0}
   cam: {fileID: 519420031}
   angle: 0
+  angley: 0
   moveX: 0
   moveY: 0
   mouseX: 0
@@ -479,6 +480,9 @@ MonoBehaviour:
   goldBulletMid: {fileID: 4584924342552557459, guid: 327fbf9846cf19147bdcaf6d504668ff,
     type: 3}
   bulletForceMid: 20
+  shoot: {x: 0, y: 0, z: 0}
+  shootirection: {x: 0, y: 0, z: 0}
+  angle: 0
 --- !u!1 &1543179914
 GameObject:
   m_ObjectHideFlags: 0

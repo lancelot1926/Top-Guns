@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     public Camera cam;
 
     public float angle;
+    public float angley;
     private float moveSpeed = 10f;
     public float moveX;
     public float moveY;
@@ -97,8 +98,8 @@ public class PlayerMovement : MonoBehaviour
     {
         rigBody.velocity = moveDir*moveSpeed;
 
-        lookDir = mousePos - transform.position;
-        angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg-90f;
+        lookDir = (mousePos - transform.position).normalized;
+        angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
         
     }
 }

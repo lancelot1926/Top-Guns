@@ -11,6 +11,7 @@ public class ShootingCombat : MonoBehaviour
     public Vector3 shoot;
     public Vector3 shootirection;
     public float angle;
+    public GameObject deadZone;
     private void Awake()
     {
         pMove = gameObject.GetComponent<PlayerMovement>();
@@ -18,6 +19,7 @@ public class ShootingCombat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Vector2.Distance(pMove.mousePos, deadZone.GetComponent<CircleCollider2D>().bounds.center) < deadZone.GetComponent<CircleCollider2D>().radius
         if (Input.GetKey(KeyCode.Mouse0))
         {
             Shoot();

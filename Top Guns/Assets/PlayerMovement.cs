@@ -68,7 +68,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //Debug.Log(animator.GetBool("Shooting"));
-        Debug.Log(mousePos);
+        
         moveDir = new Vector3(moveX, moveY).normalized;
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         bool isIdle = moveX == 0 && moveY == 0;

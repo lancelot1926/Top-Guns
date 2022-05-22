@@ -14,8 +14,13 @@ public class Shoot : MonoBehaviour
 
     private void Update()
     {
-        float moveSpeed = 20f;
+        float moveSpeed = 21f;
         transform.position += shootDir * moveSpeed * Time.deltaTime;
         
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Destroy(gameObject);
     }
 }

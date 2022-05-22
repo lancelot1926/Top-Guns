@@ -63,6 +63,8 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.Mouse0))
         {
             animator.SetBool("Shooting", true);
+            animator.SetFloat("XMovement", mousePos.x);
+            animator.SetFloat("YMovement", mousePos.y);
         }
 
         //Debug.Log(animator.GetBool("Shooting"));
@@ -70,7 +72,7 @@ public class PlayerMovement : MonoBehaviour
         moveDir = new Vector3(moveX, moveY).normalized;
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         bool isIdle = moveX == 0 && moveY == 0;
-
+        bool shooting = animator.GetBool("Shooting");
         if (isIdle)
         {
             rigBody.velocity = Vector2.zero;
@@ -85,13 +87,17 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat("XMovement", moveDir.x);
             animator.SetFloat("YMovement", moveDir.y);
         }
-        if (animator.GetBool("Shooting") == true)
+        if (shooting==true)
         {
             animator.SetFloat("CursorX", mousePos.x);
             animator.SetFloat("CursorY", mousePos.y);
         }
+        if (shooting == false&&isIdle==true)
+        {
+            
+        }
 
-        
+
     }
 
     private void FixedUpdate()

@@ -63,12 +63,12 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.Mouse0))
         {
             animator.SetBool("Shooting", true);
-            animator.SetFloat("XMovement", mousePos.x);
-            animator.SetFloat("YMovement", mousePos.y);
+            
         }
-
+        animator.SetFloat("XMovement", mousePos.x);
+        animator.SetFloat("YMovement", mousePos.y);
         //Debug.Log(animator.GetBool("Shooting"));
-        
+
         moveDir = new Vector3(moveX, moveY).normalized;
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         bool isIdle = moveX == 0 && moveY == 0;

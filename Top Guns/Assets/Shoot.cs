@@ -23,6 +23,10 @@ public class Shoot : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Destroy(gameObject);
+        if (collision.tag != "Player")
+        {
+            
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class ShootingCombat : MonoBehaviour
 {
@@ -20,9 +21,14 @@ public class ShootingCombat : MonoBehaviour
     void Update()
     {
         //Vector2.Distance(pMove.mousePos, deadZone.GetComponent<CircleCollider2D>().bounds.center) < deadZone.GetComponent<CircleCollider2D>().radius
-        if (Input.GetKey(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             Shoot();
+            EventDelayer(0.5f, () => {
+                
+
+            });
+            
         }
     }
     private void FixedUpdate()
@@ -45,5 +51,12 @@ public class ShootingCombat : MonoBehaviour
         //Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         //rb.AddForce(firePoint.up * bulletForceMid, ForceMode2D.Impulse);
 
+    }
+
+
+    IEnumerator EventDelayer(float delay, Action onActionComplete)
+    {
+        yield return new WaitForSeconds(delay);
+        onActionComplete();
     }
 }

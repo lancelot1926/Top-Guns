@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
 
     public float angle;
     public float angley;
-    private float moveSpeed = 10f;
+    private float moveSpeed = 20f;
     public float moveX;
     public float moveY;
     public float mouseX;

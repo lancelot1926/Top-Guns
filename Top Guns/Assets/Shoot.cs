@@ -5,8 +5,10 @@ using UnityEngine;
 public class Shoot : MonoBehaviour
 {
     private Vector3 shootDir;
-    public void Setup(Vector3 shootDir,float ang) {
+    private string ownertag;
+    public void Setup(Vector3 shootDir,float ang,string tag) {
         this.shootDir = shootDir;
+        this.ownertag = tag;
         transform.eulerAngles = new Vector3(-ang, 90, 0);
         //gameObject.GetComponent<Rigidbody2D>().rotation = ang;
     }
@@ -22,10 +24,10 @@ public class Shoot : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Destroy(gameObject);
-        if (collision.tag != "Player")
+        
+        if (collision.tag != ownertag)
         {
-            
+            Destroy(gameObject);
         }
     }
 

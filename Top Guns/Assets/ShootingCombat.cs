@@ -45,7 +45,7 @@ public class ShootingCombat : MonoBehaviour
     {
         GameObject bullet = Instantiate(goldBulletMid, firePoint.position, Quaternion.identity/*firePoint.rotation */);
         shootirection.z = 0;
-        bullet.GetComponent<Shoot>().Setup(shootirection,angle);
+        bullet.GetComponent<Shoot>().Setup(shootirection,angle,gameObject.tag);
         
         
         //Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();

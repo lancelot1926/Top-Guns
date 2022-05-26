@@ -45,7 +45,7 @@ public class SoldierAi : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(state);
+        
     }
 
     private void FixedUpdate()
@@ -78,14 +78,14 @@ public class SoldierAi : MonoBehaviour
                 anim.SetFloat("XMovement", Player.GetComponent<PlayerMovement>().moveX);
                 anim.SetFloat("YMovement", Player.GetComponent<PlayerMovement>().moveY);
 
-                float aimDistance = 15f;
+                float aimDistance = 30F;
                 if(Vector3.Distance(transform.position, Player.transform.position) <aimDistance)
                 {
                     anim.SetBool("Walking", false);
                     state = State.Shooting;
                 }
 
-                float stopChasingDistance = 30;
+                float stopChasingDistance = 100F;
                 if (Vector3.Distance(transform.position, Player.transform.position) > stopChasingDistance)
                 {
                     state = State.Returning;
@@ -100,10 +100,10 @@ public class SoldierAi : MonoBehaviour
                     
 
                     Shoot();
-                    float fireRate = 0.3f;
+                    float fireRate = 1F;
                     nextShootTime = Time.time + fireRate;
                 }
-                float aimD = 15f;
+                float aimD = 30F;
                 if (Vector3.Distance(transform.position, Player.transform.position) > aimD)
                 {
                     anim.SetBool("Shooting", false);
@@ -134,7 +134,7 @@ public class SoldierAi : MonoBehaviour
         
         GameObject bullet = Instantiate(goldBulletMid, firePoint.position, Quaternion.identity/*firePoint.rotation */);
         shootirection.z = 0;
-        bullet.GetComponent<Shoot>().Setup(shootirection, angle,gameObject.tag);
+        bullet.GetComponent<Shoot>().Setup(shootirection, angle,gameObject);
 
 
         //Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
@@ -155,12 +155,12 @@ public class SoldierAi : MonoBehaviour
 
     private void FindTarget()
     {
-        float targetRange = 20f;
+        float targetRange = 80F;
         if (Vector3.Distance(transform.position, Player.transform.position) < targetRange)
         {
             state = State.Chasing;
         }
-        float aimDistance = 15f;
+        float aimDistance = 30F;
         if (Vector3.Distance(transform.position, Player.transform.position) < aimDistance)
         {
             anim.SetBool("Walking", false);

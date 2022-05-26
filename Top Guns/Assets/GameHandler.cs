@@ -1,22 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class GameHandler : MonoBehaviour
 {
+    
     [SerializeField]
     private List<Transform> SpawnLoc;
     [SerializeField]
     private GameObject NormalSoldier;
     
-    [SerializeField]
-    private List<GameObject> SpwanedSoldierList;
+    
+    public List<GameObject> SpwanedSoldierList;
     
     public int LevelCounter;
     public int PointCounter;
     public int EnemyCounter;
+
+    private bool funcCheck1;
+    private State state;
     private enum State
     {
+        Wait,
         StartOfTheLevel,
         EndOfTheLevel,
         InLevel,
@@ -25,14 +31,44 @@ public class GameHandler : MonoBehaviour
 
     void Start()
     {
-        
+        LevelCounter = 1;
+        state = State.Wait;
     }
 
     
     void Update()
     {
+        Debug.Log(state);
         EnemyCounter = SpwanedSoldierList.Count;
-
+        switch (state)
+        {
+            case State.Wait:
+                StartCoroutine(EventDelayer(5f, () => {
+                    state = State.StartOfTheLevel;
+                }));
+                break;
+            case State.StartOfTheLevel:
+                if (funcCheck1 == false)
+                {
+                    SpawnEnemy();
+                    funcCheck1 = true;
+                }
+                
+                state = State.InLevel;
+                break;
+            case State.InLevel:
+                if (EnemyCounter == 0)
+                {
+                    LevelCounter++;
+                    state = State.EndOfTheLevel;
+                }
+                
+                break;
+            case State.EndOfTheLevel:
+                funcCheck1 = false;
+                state = State.Wait;
+                break;
+        }
 
     }
 
@@ -105,5 +141,12 @@ public class GameHandler : MonoBehaviour
                 }
                 break;
         }
+    }
+
+
+    IEnumerator EventDelayer(float delay, Action onActionComplete)
+    {
+        yield return new WaitForSeconds(delay);
+        onActionComplete();
     }
 }

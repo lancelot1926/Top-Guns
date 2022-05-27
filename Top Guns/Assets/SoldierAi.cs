@@ -134,7 +134,7 @@ public class SoldierAi : MonoBehaviour
         
         GameObject bullet = Instantiate(goldBulletMid, firePoint.position, Quaternion.identity/*firePoint.rotation */);
         shootirection.z = 0;
-        bullet.GetComponent<Shoot>().Setup(shootirection, angle,gameObject);
+        bullet.GetComponent<Shoot>().Setup(shootirection, angle,gameObject,0);
 
 
         //Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();

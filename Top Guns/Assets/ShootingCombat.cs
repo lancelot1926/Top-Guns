@@ -7,6 +7,7 @@ public class ShootingCombat : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject goldBulletMid;
+    public GameObject shotgunBullet;
     private PlayerMovement pMove;
     public float bulletForceMid = 20f;
     public Vector3 shoot;
@@ -82,7 +83,17 @@ public class ShootingCombat : MonoBehaviour
                 }
                 break;
             case 3:
+                if (Input.GetKey(KeyCode.Mouse0))
+                {
+                    if (Time.time > nextShootTime)
+                    {
+                        ShootShotgun();
+                        float fireRate = 0.8F;
+                        nextShootTime = Time.time + fireRate;
+                    }
 
+
+                }
                 break;
             case 4:
 
@@ -105,9 +116,20 @@ public class ShootingCombat : MonoBehaviour
     {
         GameObject bullet = Instantiate(goldBulletMid, firePoint.position, Quaternion.identity/*firePoint.rotation */);
         shootirection.z = 0;
-        bullet.GetComponent<Shoot>().Setup(shootirection,angle,gameObject);
+        bullet.GetComponent<Shoot>().Setup(shootirection,angle,gameObject,0);
         
         
+        //Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        //rb.AddForce(firePoint.up * bulletForceMid, ForceMode2D.Impulse);
+
+    }
+    void ShootShotgun()
+    {
+        GameObject bullet = Instantiate(shotgunBullet, firePoint.position, Quaternion.identity/*firePoint.rotation */);
+        //shootirection.x = 0;
+        bullet.GetComponent<Shoot>().Setup(shootirection, angle, gameObject,3);
+
+
         //Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         //rb.AddForce(firePoint.up * bulletForceMid, ForceMode2D.Impulse);
 

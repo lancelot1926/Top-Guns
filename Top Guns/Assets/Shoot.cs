@@ -7,10 +7,26 @@ public class Shoot : MonoBehaviour
     private Vector3 shootDir;
     private string ownertag;
     private GameObject owner;
-    public void Setup(Vector3 shootDir,float ang,GameObject owner) {
+    public void Setup(Vector3 shootDir,float ang,GameObject owner,int shotMode) {
         this.shootDir = shootDir;
         this.ownertag = owner.tag;
-        transform.eulerAngles = new Vector3(-ang, 90, 0);
+        if (ownertag == "Player")
+        {
+            if (shotMode != 3)
+            {
+                transform.eulerAngles = new Vector3(-ang, 90, 0);
+            }
+            if (shotMode == 3)
+            {
+                transform.eulerAngles = new Vector3(0, 0, ang);
+            }
+        }
+        if (ownertag == "Enemy")
+        {
+            transform.eulerAngles = new Vector3(-ang, 90, 0);
+        }
+
+
         //gameObject.GetComponent<Rigidbody2D>().rotation = ang;
     }
 

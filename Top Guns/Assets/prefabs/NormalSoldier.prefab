@@ -215,7 +215,8 @@ GameObject:
   - component: {fileID: 1681093493760175770}
   - component: {fileID: 1681093493760175771}
   - component: {fileID: 1681093493760175764}
-  m_Layer: 0
+  - component: {fileID: 1625611377186144465}
+  m_Layer: 8
   m_Name: NormalSoldier
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -263,6 +264,8 @@ MonoBehaviour:
   shoot: {x: 0, y: 0, z: 0}
   shootirection: {x: 0, y: 0, z: 0}
   angle: 0
+  speed: 400
+  nextWaypointDistance: 3
 --- !u!70 &1681093493760175770
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -291,8 +294,8 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.0001
-  m_LinearDrag: 0
+  m_Mass: 1
+  m_LinearDrag: 1.5
   m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -314,10 +317,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lvl: 0
   damage: 0
-  speed: 0
+  moveSpeed: 0
+  fireRate: 0
   CurrentHealth: 100
   MaxHealth: 100
   hpBar: {fileID: 1483318564371589416}
+--- !u!114 &1625611377186144465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681093493760175775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1
 --- !u!1 &1681093494008995181
 GameObject:
   m_ObjectHideFlags: 0

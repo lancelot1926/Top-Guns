@@ -38,7 +38,7 @@ public class GameHandler : MonoBehaviour
     
     void Update()
     {
-        Debug.Log(state);
+        //Debug.Log(state);
         EnemyCounter = SpwanedSoldierList.Count;
         switch (state)
         {
@@ -78,7 +78,7 @@ public class GameHandler : MonoBehaviour
         {
             case 1:
                 //2
-                for(int x = 0; x< 2; x++)
+                for(int x = 0; x< 1; x++)
                 {
                     GameObject spawnedSoldier = Instantiate(NormalSoldier, SpawnLoc[x]);
                     SpwanedSoldierList.Add(spawnedSoldier);

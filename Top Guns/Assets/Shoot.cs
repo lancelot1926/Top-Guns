@@ -48,6 +48,10 @@ public class Shoot : MonoBehaviour
             {
                 collision.GetComponent<UnitStats>().TakeDamage(20);
             }
+            if (collision.tag == "Player")
+            {
+                collision.GetComponent<UnitStats>().TakeDamage(20);
+            }
             Destroy(gameObject);
         }
     }

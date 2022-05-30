@@ -17,6 +17,10 @@ public class GameHandler : MonoBehaviour
     public int LevelCounter;
     public int PointCounter;
     public int EnemyCounter;
+    public int CoinCounter;
+
+
+    public List<Buff> BuffList;
 
     private bool funcCheck1;
     private State state;
@@ -78,7 +82,7 @@ public class GameHandler : MonoBehaviour
         {
             case 1:
                 //2
-                for(int x = 0; x< 1; x++)
+                for(int x = 0; x< 2; x++)
                 {
                     GameObject spawnedSoldier = Instantiate(NormalSoldier, SpawnLoc[x]);
                     SpwanedSoldierList.Add(spawnedSoldier);

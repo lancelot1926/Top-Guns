@@ -10,7 +10,9 @@ public class UnitStats : MonoBehaviour
     public float fireRate;
     public int CurrentHealth;
     public int MaxHealth;
-    
+
+
+    public Stats stats;
     private GameHandler gameHandler;
     [SerializeField]
     private HealthBar hpBar;

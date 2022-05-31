@@ -57,7 +57,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: -941750593
+  m_SortingLayerID: 886896121
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &819359871935919362
@@ -264,6 +264,8 @@ MonoBehaviour:
   shoot: {x: 0, y: 0, z: 0}
   shootirection: {x: 0, y: 0, z: 0}
   angle: 0
+  muzzleEffect: {fileID: 7019300123331825768, guid: 045fe8886aac0524a9e3338254b880ad,
+    type: 3}
   speed: 400
   nextWaypointDistance: 3
 --- !u!70 &1681093493760175770
@@ -279,8 +281,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0015625, y: 0.015326643}
-  m_Size: {x: 0.12084808, y: 0.3877937}
+  m_Offset: {x: -0.002007556, y: -0.0020304918}
+  m_Size: {x: 0.207189, y: 0.45277196}
   m_Direction: 0
 --- !u!50 &1681093493760175771
 Rigidbody2D:
@@ -321,7 +323,13 @@ MonoBehaviour:
   fireRate: 0
   CurrentHealth: 100
   MaxHealth: 100
+  currentShield: 0
+  maxShield: 0
+  drop: {fileID: 5502775591081020968, guid: f1d08aabc3629364a8e69f307830bf98, type: 3}
+  stats: {fileID: 0}
   hpBar: {fileID: 1483318564371589416}
+  shieldBar: {fileID: 0}
+  hasShield: 0
 --- !u!114 &1625611377186144465
 MonoBehaviour:
   m_ObjectHideFlags: 0

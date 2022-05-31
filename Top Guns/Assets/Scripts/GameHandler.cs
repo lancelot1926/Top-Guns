@@ -29,6 +29,8 @@ public class GameHandler : MonoBehaviour
     public Buff chosenBuff;
 
     private bool funcCheck1;
+    public bool funcCheck2;
+    public bool buffTaken;
     private State state;
     private enum State
     {
@@ -36,6 +38,7 @@ public class GameHandler : MonoBehaviour
         StartOfTheLevel,
         EndOfTheLevel,
         InLevel,
+        BuffPicking,
     }
 
 
@@ -50,6 +53,7 @@ public class GameHandler : MonoBehaviour
     
     void Update()
     {
+        Debug.Log(state);
         if (Input.GetKeyDown(KeyCode.H))
         {
             BuffRandomizer();
@@ -67,7 +71,15 @@ public class GameHandler : MonoBehaviour
         {
             case State.Wait:
                 StartCoroutine(EventDelayer(5f, () => {
-                    state = State.StartOfTheLevel;
+                    if (LevelCounter==1|| LevelCounter == 3|| LevelCounter == 5|| LevelCounter == 7)
+                    {
+                        state = State.BuffPicking;
+                    }
+                    else
+                    {
+                        state = State.StartOfTheLevel;
+                    }
+                    
                 }));
                 break;
             case State.StartOfTheLevel:
@@ -89,7 +101,24 @@ public class GameHandler : MonoBehaviour
                 break;
             case State.EndOfTheLevel:
                 funcCheck1 = false;
+                funcCheck2 = false;
+                buffTaken = false;
                 state = State.Wait;
+                break;
+            case State.BuffPicking:
+                if (funcCheck2 == false)
+                {
+                    BuffRandomizer();
+                    uI.SetBuffS();
+                    uI.setButtonsForBuffs();
+                }
+                funcCheck2 = true;
+
+                if (buffTaken == true)
+                {
+                    state = State.StartOfTheLevel;
+                }
+
                 break;
         }
 
@@ -192,24 +221,28 @@ public class GameHandler : MonoBehaviour
                 player.GetComponent<ShootingCombat>().shootingStyleList.Add("Automatic");
                 nonRepeatingBuffs.Add(chosenBuff);
                 chosenBuff = null;
+                buffTaken = true;
                 break;
 
             case "Burst Rifle":
                 player.GetComponent<ShootingCombat>().shootingStyleList.Add("Burst");
                 nonRepeatingBuffs.Add(chosenBuff);
                 chosenBuff = null;
+                buffTaken = true;
                 break;
 
             case "Shotgun Rifle":
                 player.GetComponent<ShootingCombat>().shootingStyleList.Add("Shotgun");
                 nonRepeatingBuffs.Add(chosenBuff);
                 chosenBuff = null;
+                buffTaken = true;
                 break;
 
             case "Sniper Rifle":
                 player.GetComponent<ShootingCombat>().shootingStyleList.Add("Sniper");
                 nonRepeatingBuffs.Add(chosenBuff);
                 chosenBuff = null;
+                buffTaken = true;
                 break;
 
             case "Fire Rate Upgrade":
@@ -222,6 +255,7 @@ public class GameHandler : MonoBehaviour
                     
                 }
                 chosenBuff = null;
+                buffTaken = true;
                 break;
             case "Coin Bag":
 
@@ -229,12 +263,14 @@ public class GameHandler : MonoBehaviour
             case "Move Speed Buff":
                 player.GetComponent<PlayerMovement>().moveSpeed += 1;
                 chosenBuff = null;
+                buffTaken = true;
                 break;
             case "Max HP Upgrade":
                 player.GetComponent<UnitStats>().MaxHealth += 50;
                 player.GetComponent<UnitStats>().CurrentHealth = player.GetComponent<UnitStats>().MaxHealth;
                 player.GetComponent<UnitStats>().hpBar.SetMaxPoints(player.GetComponent<UnitStats>().MaxHealth);
                 chosenBuff = null;
+                buffTaken = true;
                 break;
             case "Temporary Shield":
                 uI.healthUi.SetActive(false);
@@ -243,8 +279,12 @@ public class GameHandler : MonoBehaviour
                 player.GetComponent<UnitStats>().maxShield = 100;
                 player.GetComponent<UnitStats>().currentShield = player.GetComponent<UnitStats>().maxShield;
                 player.GetComponent<UnitStats>().shieldBar.SetMaxPoints(player.GetComponent<UnitStats>().maxShield);
+                chosenBuff = null;
+                buffTaken = true;
                 break;
         }
+
+        
     }
 
     IEnumerator EventDelayer(float delay, Action onActionComplete)

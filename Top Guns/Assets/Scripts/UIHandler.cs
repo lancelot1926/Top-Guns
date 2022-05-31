@@ -79,8 +79,12 @@ public class UIHandler : MonoBehaviour
             gmHandler.ApplyBuff();
             gmHandler.BuffList.Clear();
             RemoveBuffs();
+            BuffHolderOne.onClick.RemoveAllListeners();
+            BuffHolderTwo.onClick.RemoveAllListeners();
+            BuffHolderThree.onClick.RemoveAllListeners();
             buffPickPanel.SetActive(false);
             
+
 
         });
         BuffHolderTwo.onClick.AddListener(() => {
@@ -88,7 +92,11 @@ public class UIHandler : MonoBehaviour
             gmHandler.ApplyBuff();
             gmHandler.BuffList.Clear();
             RemoveBuffs();
+            BuffHolderOne.onClick.RemoveAllListeners();
+            BuffHolderTwo.onClick.RemoveAllListeners();
+            BuffHolderThree.onClick.RemoveAllListeners();
             buffPickPanel.SetActive(false);
+            
 
         });
         BuffHolderThree.onClick.AddListener(() => {
@@ -96,7 +104,11 @@ public class UIHandler : MonoBehaviour
             gmHandler.ApplyBuff();
             gmHandler.BuffList.Clear();
             RemoveBuffs();
+            BuffHolderOne.onClick.RemoveAllListeners();
+            BuffHolderTwo.onClick.RemoveAllListeners();
+            BuffHolderThree.onClick.RemoveAllListeners();
             buffPickPanel.SetActive(false);
+            
 
         });
     }

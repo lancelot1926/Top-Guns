@@ -140,7 +140,7 @@ public class SoldierAi : MonoBehaviour
                     state = State.Shooting;
                 }
 
-                float stopChasingDistance = 100F;
+                float stopChasingDistance = 800F;
                 if (Vector3.Distance(transform.position, Player.transform.position) > stopChasingDistance)
                 {
                     state = State.Returning;
@@ -224,7 +224,7 @@ public class SoldierAi : MonoBehaviour
 
     private void FindTarget()
     {
-        float targetRange = 80F;
+        float targetRange = 500F;
         if (Vector3.Distance(transform.position, Player.transform.position) < targetRange)
         {
             state = State.Chasing;

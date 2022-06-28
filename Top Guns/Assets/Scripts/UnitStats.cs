@@ -24,6 +24,7 @@ public class UnitStats : MonoBehaviour
     public HealthBar shieldBar;
 
     public bool hasShield;
+    public bool hasBloodLust;
 
     // Start is called before the first frame update
     void Start()

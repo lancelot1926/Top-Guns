@@ -21,7 +21,7 @@ public class GameHandler : MonoBehaviour
     public int PointCounter;
     public int EnemyCounter;
     public int CoinCounter;
-
+    public int HighScore;
 
     public List<Buff> BuffList;
     public List<Buff> buffPool;
@@ -41,9 +41,12 @@ public class GameHandler : MonoBehaviour
         BuffPicking,
     }
 
+    public SavebleInfo savebleInfo;
 
     void Start()
     {
+        savebleInfo = new SavebleInfo(PointCounter, PointCounter, CoinCounter);
+        savebleInfo = FileHandler.ReadFromJson<SavebleInfo>("SaveableInfo.json");
         player = GameObject.FindGameObjectWithTag("Player");
         LevelCounter = 1;
         state = State.Wait;
@@ -103,6 +106,9 @@ public class GameHandler : MonoBehaviour
                 funcCheck1 = false;
                 funcCheck2 = false;
                 buffTaken = false;
+                savebleInfo.Score = PointCounter;
+                savebleInfo.Coins += PointCounter;
+                FileHandler.SaveToJson<SavebleInfo>(savebleInfo, "SaveableInfo.json");
                 state = State.Wait;
                 break;
             case State.BuffPicking:
@@ -281,6 +287,16 @@ public class GameHandler : MonoBehaviour
                 player.GetComponent<UnitStats>().shieldBar.SetMaxPoints(player.GetComponent<UnitStats>().maxShield);
                 chosenBuff = null;
                 buffTaken = true;
+                break;
+            case "BloodLust":
+                player.GetComponent<UnitStats>().hasBloodLust = true;
+                nonRepeatingBuffs.Add(chosenBuff);
+                chosenBuff = null;
+                buffTaken = true;
+                break;
+
+            case"":
+
                 break;
         }
 

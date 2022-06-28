@@ -149,9 +149,15 @@ public class ShootingCombat : MonoBehaviour
     {
         Instantiate(muzzleEffect, firePoint.transform);
         GameObject bullet = Instantiate(shotgunBullet, firePoint.position, Quaternion.identity/*firePoint.rotation */);
-        
+
         //shootirection.x = 0;
-        bullet.GetComponent<Shoot>().Setup(shootirection, angle, gameObject,3);
+        //bullet.GetComponent<Shoot>().Setup(shootirection, angle, gameObject,3);
+        //bullet.GetComponentInChildren<Shoot>().Setup(shootirection, angle, gameObject, 3);
+        shootirection.z = 0;
+        bullet.transform.GetChild(0).GetComponent<Shoot>().Setup(shootirection, angle, gameObject, 3);
+        bullet.transform.GetChild(1).GetComponent<Shoot>().Setup(shootirection, angle, gameObject, 3);
+        bullet.transform.GetChild(2).GetComponent<Shoot>().Setup(shootirection, angle, gameObject, 3);
+        bullet.transform.GetChild(3).GetComponent<Shoot>().Setup(shootirection, angle, gameObject, 3);
 
 
         //Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
